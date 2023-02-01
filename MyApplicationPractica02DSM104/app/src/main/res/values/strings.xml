@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application Practica 02 DSM 104</string>
+    <string name="resultado">Resultado: </string>
+    <string name="nombre">Nombre: </string>
+    <string name="enviar">Enviar</string>
+
+</resources>

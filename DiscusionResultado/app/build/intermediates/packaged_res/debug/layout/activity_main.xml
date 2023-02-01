@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblOperador1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/operador"/>
+    <EditText
+        android:id="@+id/TxtOperador1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/lblOperador2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/operador"/>
+    <EditText
+        android:id="@+id/TxtOperador2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/BtnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"/>
+
+    <TextView
+        android:id="@+id/LblResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"/>
+
+</LinearLayout>
